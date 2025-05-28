@@ -82,7 +82,9 @@ const Wallet: React.FC = () => {
   };
 
   const transak = new Transak(transakConfig);
-  const handleSuccess = (receipt: any) => {
+  /* eslint-disable  @typescript-eslint/no-explicit-any */
+
+  const handleSuccess = (receipt:any) => {
     if (mode == "BUY") {
       console.log("Deposit successful:", receipt);
     }
