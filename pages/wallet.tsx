@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import { Transak, TransakConfig } from "@transak/transak-sdk";
-import { useAuth } from "./AuthContext";
+import { useAuth } from "../context/AuthContext";
 import { useRouter } from "next/router";
 import axios from "axios";
 
