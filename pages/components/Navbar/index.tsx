@@ -5,9 +5,9 @@ const Navbar: React.FC = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="flex-1">
-        <Link href="/" className="btn btn-ghost text-xl">Horizon e-books</Link>
+        <Link href="/" className="btn btn-ghost text-xl">Kazipay Agency</Link>
       </div>
-      <div className="flex-none">
+      {/* <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li>
             <Link href="/wallet">
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

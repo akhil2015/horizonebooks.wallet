@@ -1,11 +1,11 @@
 import Navbar from "./components/Navbar";
-import Login from "./login";
+import Deposit from "./deposit";
 
 export default function Home() {
   return (
     <>
       <Navbar/>
-      <Login />
+      <Deposit />
     </>
     
   );
